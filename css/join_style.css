@@ -17,12 +17,6 @@ a {
     font-family: 'Jost';
     font-size: 17pt;   
 }
-hr {
-    border-color: #1175e7!important;
-    border-style:solid!important;
-    border-width: 1px !important;
-}
-
 li{
     font-family: 'Jost';
     font-size: 17pt;
@@ -147,6 +141,9 @@ margin-bottom: 1%;
 .btn input:hover{
     background: blue;
     color: white;
+}
+.split {
+    border: 1px solid #1175e7;;
 }
 
 @media(max-width: 600px){
