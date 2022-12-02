@@ -1,0 +1,184 @@
+.about_header_text {
+    text-align: center;
+    color: #1175e7;
+    margin-top: 80px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 27px;
+
+}
+body {
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    font-family: 'Jost';
+    font-size: 17pt;   
+}
+hr {
+    border-color: #1175e7!important;
+    border-style:solid!important;
+    border-width: 1px !important;
+}
+
+li{
+    font-family: 'Jost';
+    font-size: 17pt;
+}
+.line_up {
+    margin-top: 7% !important;
+ }
+
+.head_container {
+    display: flex;
+    justify-content: space-between;
+ }
+
+
+ .footer_container {
+    display:flex;
+    justify-content: center;
+    background-color: #1175e7;
+    flex-direction: column;
+    margin-top: 5%;
+
+ }
+ .footer_text{
+    text-align: center;
+    margin-top: 1%;
+margin-bottom: 1%;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 17px;
+    color:#ffffff;
+ }
+
+ main {
+    flex: 1 0 auto;
+ }
+
+ .header_head {
+    font-family: 'Kumbh Sans', sans-serif;
+     font-size: 30px;
+     color: #1175e7;
+     margin-top: 3%!important;
+     margin-left: 5%!important;
+    text-decoration: none;
+ }
+
+ .custom_space {
+    margin-right: 0px !important;
+ }
+
+
+*{
+   
+    box-sizing: border-box;
+    font-family: "Kumbh Sans";
+}
+
+
+
+.container{
+    width: 100%;
+    max-width: 1050px;
+    background: #53C3FF;
+    padding: 70px;
+    margin: 0 28px;
+    border-radius: 10px;
+ 
+}
+
+.title{
+    font-size: 28px;
+    text-align: center;
+    padding-bottom: 25px;
+    color: #1175E7;
+    border-bottom: solid 5px #1175E7;
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.form:nth-child(2n){
+    justify-content: end;
+}
+
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-bottom: 15px;
+}
+
+.form label{
+    width: 95%;
+    color: #1175E7;
+    font-size: 28px;
+    margin: 5px 0;
+}
+
+.form input{
+    height: 30px;
+    width: 95%;
+    padding: 0 10px;
+}
+
+
+.btn{
+    margin-top: 80px;
+}
+
+.btn input{
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 10px;
+    color: #FFFAFA;
+    background: #1175E7;
+}
+
+.btn input:hover{
+    background: blue;
+    color: white;
+}
+
+@media(max-width: 600px){
+    .container{
+        min-width: 250px;
+    }
+
+    .form{
+        margin-bottom: 12px;
+        width: 100%;
+    }
+
+    .form:nth-child(2n){
+        justify-content: space-between;
+    }
+
+    .main{
+        max-height: 400px;
+        overflow: auto;
+    }
+
+
+}
+@media only screen and (min-width: 801px) and (max-width: 999px) {
+   
+    .header_head {
+        margin-top: 6.5% !important;
+    }
+    .container{
+        margin-bottom: 8%;
+    }
+    .link_box {
+        margin-bottom: 20%
+    }
+}
