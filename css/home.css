@@ -117,6 +117,9 @@ h1 {
  .button_text:hover {
     background-color: #53C3FF;
  }
+ .button_text:focus {
+   background-color: #53C3FF;
+}
 
  .footer_container {
     display:flex;

@@ -142,6 +142,10 @@ margin-bottom: 1%;
     background: blue;
     color: white;
 }
+.btn input:focus{
+    background: blue;
+    color: white;
+}
 .split {
     border: 1px solid #1175e7;;
 }
