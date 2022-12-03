@@ -77,7 +77,7 @@ margin-bottom: 1%;
  .main_box {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     width: 100%;
     margin-top: 2%;
     gap: 5%;
@@ -145,6 +145,26 @@ margin-bottom: 1%;
     color:#1175e7;
     height: 100%;
  }
+ .learn_more{
+   text-align: center;
+   margin-top: 10%;
+   font-family: 'Kumbh Sans', sans-serif;
+   font-size: 17pt;   
+   background-color: rgba(17, 117, 231, 0.25);
+   width: 80%;
+   margin-left: 10%;
+   border-radius: 20%;
+   grid-row: 5/6;
+   height: 50%;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+  }
+  .specific_a{
+   font-family: 'Kumbh Sans', sans-serif;
+   font-size: 17pt;   
+
+  }
  .specific_spacing {
     margin-top: 5%;
  }
@@ -157,7 +177,7 @@ margin-bottom: 1%;
     .main_box {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
         width: 100%;
         margin-top: 2%;
         margin-bottom: 8%;
@@ -193,6 +213,28 @@ margin-bottom: 1%;
         margin-top: 5%;
         grid-row: 4/6;
         height: 150%;
+     }
+     .learn_more{
+      text-align: center;
+      margin-top: 10%;
+      font-family: 'Kumbh Sans', sans-serif;
+      font-size: 17pt;   
+      background-color: rgba(17, 117, 231, 0.25);
+      width: 80%;
+      margin-left: 10%;
+      border-radius: 20%;
+      grid-row: 6/8;
+      height: 50%;
+      grid-column: 2/2;
+      margin-top: 30%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+     }
+     .specific_a{
+      font-family: 'Kumbh Sans', sans-serif;
+      font-size: 17pt;   
+
      }
      .header_text {
         grid-column: 1/4;

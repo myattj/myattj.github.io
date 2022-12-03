@@ -77,7 +77,6 @@ main {
 }
 
 .wrapper{
-  margin-top: 100px;
   text-align: center;
 }
 .wrapper2{
@@ -93,11 +92,11 @@ main {
 }
 
 .club_members{
-  width: auto;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  
+  width: 60%;
+  margin-left: 20%;
 }
 
 .club_members .member{
